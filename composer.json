@@ -1,0 +1,24 @@
+{
+    "name": "tayron/exceptions",
+    "description": "Classe para tratamento de exceções",
+    "version": "1.0.0",
+    "type": "classe-utilitaria",
+    "homepage": "https://github.com/tayron/exceptions",
+    "authors": [
+        {
+            "name": "Tayron Miranda",
+            "email": "dev@tayron.com.br"
+        }
+    ],    
+    "require": {
+        "php": ">=5.3",
+        "monolog/monolog" : "1.18.1",
+        "tayron/template" : "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tayron\\exceptions\\": "\\"
+        }
+    }      
+
+}
