@@ -1,7 +1,7 @@
 {
     "name": "tayron/exceptions",
     "description": "Classe para tratamento de exceções",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "classe-utilitaria",
     "homepage": "https://github.com/tayron/exceptions",
     "authors": [
@@ -13,7 +13,8 @@
     "require": {
         "php": ">=5.3",
         "monolog/monolog" : "1.18.1",
-        "tayron/template" : "1.*"
+        "tayron/template" : "1.*",
+        "tayron/request" : "1.*"
     },
     "autoload": {
         "psr-4": {

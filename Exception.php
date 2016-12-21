@@ -3,6 +3,7 @@ namespace Tayron\exceptions;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
+use Tayron\Request;
 use Tayron\Template;
 
 /**
@@ -64,12 +65,13 @@ class Exception extends \Exception
     private function showErroMessage($message, $trace = true)
     {		
         $message .= ($trace) ? '<br /><br /><pre>' . $this->getTraceAsString() . '</pre>' : null;
+        $request = Request::getInstance();
         
         $pathView = PATH . DS . 'src' . DS . 'view';
         $pathTemplate = PATH . DS . 'src' . DS . 'view' . DS . 'template';
         $pathElements = PATH . DS . 'src' . DS . 'view' . DS . 'elements';  
         
-        $this->template = Template::getInstance(null, null, $pathView, $pathTemplate, $pathElements);
+        $this->template = Template::getInstance(null, $request, $pathView, $pathTemplate, $pathElements);
         
         $this->template->setTemplate('default');
         $this->template->setParameters(array('mensagem' => $message ));        

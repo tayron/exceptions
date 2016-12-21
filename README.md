@@ -1,4 +1,4 @@
-## Exceptions 1.0.0
+## Exceptions 1.0.1
 
 Conjunto de classes para gerenciamento de exceções
 
@@ -27,7 +27,7 @@ Conjunto de classes para gerenciamento de exceções
 ```sh
     "require": {
         ...
-        "tayron/exceptions" : "1.0.0"
+        "tayron/exceptions" : "1.0.1"
         ... 
     },    
 ```
