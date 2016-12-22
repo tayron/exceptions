@@ -73,7 +73,7 @@ class Exception extends \Exception
         
         $this->template = Template::getInstance(null, $request, $pathView, $pathTemplate, $pathElements);
         
-        $this->template->setTemplate('default');
+        $this->template->setTemplate('error');
         $this->template->setParameters(array('mensagem' => $message ));        
         $this->template->render('exceptions/error');
     }
