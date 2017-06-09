@@ -14,11 +14,10 @@ class Exception extends \Exception
      * Recebe os parametos a serem disparados na exceção
      * 
      * @param string $message Mensagem personalizada de erro
-     * @param string $trace Ativa ou desativa a exibiçaõ de trance do erro
      * 
      * @return void
      */
-    public function __construct($message, $trace = true) 
+    public function __construct($message) 
     {        
         parent::__construct($message, 0, null);
     }

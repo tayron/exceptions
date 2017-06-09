@@ -22,7 +22,7 @@ final class ElementNotFoundException extends Exception
      */
     public function __construct($elemento, $message = null) 
     {        
-        parent::__construct($this->formatMessage($elemento, $message), 0, null);
+        parent::__construct($this->formatMessage($elemento, $message));
     }
     
     /**
