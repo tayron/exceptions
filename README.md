@@ -1,4 +1,4 @@
-## Exceptions 1.0.2
+## Exceptions 1.0.3
 
 Conjunto de classes para gerenciamento de exceções
 
