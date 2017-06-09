@@ -1,4 +1,4 @@
-## Exceptions 2.0.1
+## Exceptions
 
 Conjunto de classes para gerenciamento de exceções
 
@@ -21,7 +21,7 @@ Conjunto de classes para gerenciamento de exceções
 ```sh
     "require": {
         ...
-        "tayron/exceptions" : "2.0.1"
+        "tayron/exceptions" : "dev-master"
         ... 
     },    
 ```
