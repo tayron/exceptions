@@ -21,7 +21,7 @@ Conjunto de classes para gerenciamento de exceções
 ```sh
     "require": {
         ...
-        "tayron/exceptions" : "1.0.0r"
+        "tayron/exceptions" : "1.0.0"
         ... 
     },    
 ```
