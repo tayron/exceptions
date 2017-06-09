@@ -1,7 +1,7 @@
 {
     "name": "tayron/exceptions",
     "description": "Classe para tratamento de exceções",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "type": "classe-utilitaria",
     "homepage": "https://github.com/tayron/exceptions",
     "authors": [
