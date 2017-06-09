@@ -11,10 +11,7 @@
         }
     ],    
     "require": {
-        "php": ">=5.3",
-        "monolog/monolog" : "1.18.1",
-        "tayron/template" : "1.*",
-        "tayron/request" : "1.*"
+        "php": ">=5.3"
     },
     "autoload": {
         "psr-4": {
